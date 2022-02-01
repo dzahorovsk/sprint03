@@ -1,0 +1,61 @@
+body {
+  background-color: #746d69;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Noto Sans TC", sans-serif;
+  color: #fffbff;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  margin: auto;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  border: 2px solid #fffbff;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 5%;
+  text-align: center;
+  width: 160px;
+  font-size: 120%;
+}
+
+.europe {background-color: #e89005;}
+.asia {background-color: #048ba8;}
+.africa {background-color: #c03221;}
+.americas {background-color: #392f5a;}
+.oceania {background-color: #306b34;}
+
+.feature {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #fffbff;
+  margin: 3px;
+  background-color: #fffbff;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mountains {background-image: url("../assets/images/mountain.png");}
+.beach {background-image: url("../assets/images/beach.png");}
+.none {background-color: #aaabbc;}
+
+.line {
+  position: relative;
+  width: 35px;
+  height: 2px;
+  background-color: #fffbff;
+  border-radius: 0;
+  top: 17px;
+  transform: rotate(-225deg);
+}

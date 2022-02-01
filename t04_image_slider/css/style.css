@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+.image {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#leftButton{
+    position: absolute;
+    z-index: 1000;
+    left: 0px;
+    width: 60px;
+    height: 400px;
+    background-color: rgba(173, 173, 170, 0.25);
+    
+}
+#rightButton{
+    position: absolute;
+    z-index: 1000;
+    left: 540px;
+    width: 60px;
+    height: 400px;
+    background-color: rgba(173, 173, 170, 0.25);
+
+}
+.scroll {
+    position: absolute;
+    z-index: 2000;
+    top: 45%;
+    left: 25%;
+    color: white;
+    font-size: 2em;
+    user-select: none;  
+}
+.active  {
+    display: block;
+}
